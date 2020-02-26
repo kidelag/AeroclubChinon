@@ -1,0 +1,196 @@
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+  background-color: #051a43;
+  background-image: url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/16038.png");
+	background-position: center;
+  background-size: cover;
+  color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: none;
+	margin: 0px;
+	opacity : 1;
+}
+
+.titre_tarifs {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1%;
+  margin-right: 30%; 
+  margin-left: 30%;
+  border-bottom: 1px solid black;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.tarifs {
+  width: 100%;
+  font-size: 1.7em;
+  text-align:center;
+  padding-bottom: 4%;
+  padding-top: 1%;
+  background-color: rgba(169,169,169,0.5); 
+}
+
+.tarifs .color {
+  color: white;
+} 
+
+.tarifs .sous-texte {
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: #051a43; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+  cursor : pointer;
+}
+
+.baptème {
+  background-color: rgba(169,169,169,0.5);
+}
+
+.bloc_baptème {
+  text-align: center;
+  text-align: justify;
+  display: inline-block;
+  width:49%;
+  float : right;
+  margin-top : 5%;
+}
+
+.bloc_baptème h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.bloc_baptème p {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+.baptème img {
+  margin: 2% 5% 2% 5%;
+  width: 40%;
+}
+
+.bloc_baptème button {
+  margin-left: 40%;
+  margin-bottom: 1%;  
+  margin-bottom: 10%;
+}
+
+.formation {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.bloc_formation {
+  text-align: center;
+  text-align: justify;
+  display: inline-block;
+  width:49%;
+}
+
+.bloc_formation h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.bloc_formation p {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+.bloc_formation img {
+  padding-right: 15%;
+  margin-top: 10%;
+  width: 80%;
+}
+
+.bloc_formation button {
+  margin-left: 40%;
+  margin-bottom: 1%;
+  margin-bottom: 10%;
+}
+
+.budget {
+  background-color: rgba(255,255,255,0.8);
+  width: 100%;
+  padding-bottom: 2%;
+  color: #051a43;
+}
+
+.listBudget {
+  text-align: center;
+  text-align: justify;
+  padding-left: 8%;
+  width : 40%;
+  float : right;
+  margin : 2% 15% 0% 0%;
+}
+
+.listBudget h2 {
+  padding-left: 27%;
+  font-weight: bold;
+  color: #051a43;
+}
+
+.listBudget button {
+  margin : 10% 0% 0% 30%;
+}
+
+.tabBudget {
+  display :  inline;
+}
+
+.tabBudget table {  
+  display : inline-block;
+  padding : 2% 0% 2% 10%;
+}
+
+.tabBudget tr {
+  height: 50px;
+  text-align: center;
+}
+.tabBudget td {
+  border: 1px solid silver;
+}
+
+.nousContacter {
+  padding: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2em;
+  background-color: rgba(169,169,169,0.5); 
+}

@@ -1,0 +1,101 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-color: #051a43;
+	background-image: url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/16038.png");
+	background-position: center;
+	background-size: cover;
+	color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: none;
+	margin: 0px;
+	opacity : 1; /*opcité du texte dans body*/
+}
+
+.TitrePage {
+	text-align: center;
+	font-weight: bold;
+	padding: 1% 0% 0% 0%;
+	margin : 3%;
+	margin-right: 30%; 
+  	margin-left: 30%;
+	border-bottom: 1px solid black;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.presentation {
+	background-color: rgba(255,255,255,0.5);
+	padding-top:4%;
+}
+.presentation1 {
+	background-color: rgba(155,155,155,0.5);
+	padding-top:4%;
+}
+
+.bloc_presentation {
+	text-align: center;
+	text-align: justify;
+}
+
+.bloc_presentation h1 {
+	text-align: center;
+}
+.bloc_presentation ul{
+	margin-left: 22%;
+}
+
+
+.presentation img {
+	padding: 2%;
+	display: inline-block;
+	width : 49%
+}
+
+.presentation1 img {
+	padding: 2%;
+	display: inline-block;
+	width : 39%
+}
+
+.texte{
+	padding-left : 2%;
+	display: inline-block;
+	width : 30%;
+	padding-left : 5%;
+}
+
+.texte1{
+	padding : 0% 10% 0% 10%;
+	display: inline-block;
+	width : 30%;
+}
+
+.lastB {
+	margin-left: 1%;
+}
+
+button {
+	background-color: #051a43; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+	transition-duration: 0.3s;
+	margin-left: 25%;
+	margin-bottom: 7%;
+}
+
+button:hover {
+	background-color: grey;
+	color: white;
+	cursor : pointer;
+}

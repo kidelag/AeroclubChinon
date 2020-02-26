@@ -1,0 +1,129 @@
+/* HEADER */
+
+.header{
+    position: fixed;
+    margin: auto;
+    padding: auto;
+    left: 0;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    background-color: #051a43;
+    text-align: center;
+}
+
+.header a img {
+  width: 80px;
+  height: 80px;
+}
+
+.menu a{
+    font-weight: bold;
+    text-decoration: ;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    color: #FFF;
+    transition: all 0.1s ease 0.2s;
+}
+
+
+.menu a:hover{
+    color: #62bcda;
+    transition: all 0.3s ease 0.1s;
+}
+
+img.logo
+{
+	float: left;
+	position: fixed;
+	top: 0px;
+	left: 20px;
+	width : 90px; 
+	height: 70px;
+}
+
+/* FIN DU HEADER */
+
+/* FOOTER */
+
+.footer {
+   position:absolute;
+   margin-bottom: -5%;
+   left: 0;
+   width: 100%;
+   height:15%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.footerNew {
+  vertical-align: top;
+  position: absolute;
+  width: 100%;
+  background-color: #051a43;
+  display: inline-block;
+}
+
+.footerNew h2 {
+  margin-left: 4%;
+  color: #b1bcd8;
+  font-weight: lighter;
+}
+
+.footerNew ul {
+  font-size: 13px;
+  list-style-type: none;
+}
+
+.footerNew a {
+  color: #BEE0D5;
+}
+
+.footerNew a:hover {
+  color: #BEE0D5;
+  text-decoration: underline;
+}
+
+.footerNew p {
+  color: white;
+  font-size: 13px;
+}
+
+.footerLiens {
+  padding-left: 7%;
+  vertical-align: top;
+  display: inline-block;
+  width: 28%;
+}
+
+.footerFlotte {
+  vertical-align: top;
+  display: inline-block;
+  width: 28%;
+}
+
+.footerInfos {
+  vertical-align: top;
+  display: inline-block;
+  width: 28%;
+  text-align: justify;
+}
+
+.footerLast {
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-bottom: 1%;
+}
+
+.footerLast img {
+  display: inline-block;
+  padding: 0.3%;
+  width: 2%;
+  height: 2%;
+}
+
+
+/* FIN DU FOOTER */

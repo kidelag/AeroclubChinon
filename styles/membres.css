@@ -1,0 +1,76 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-color: #051a43;
+	background-image: url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/16038.png");
+	background-position: center;
+	background-size: cover;
+	color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: none;
+	margin: 0px;
+	opacity : 1; /*opcité du texte dans body*/
+}
+
+.TitrePage {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 3%;
+	margin-bottom: 1%;
+	margin-right: 30%;
+	margin-left: 30%;
+	border-bottom: 1px solid black;
+}
+a {
+	text-decoration: none;
+	color : black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color : black;
+}
+
+.nom{
+	display : inline-block;
+	vertical-align: top;
+	width : 27%;
+	margin : 4% 4% 4% 5%;
+	border : solid 1px white;
+	border-radius  : 7%;
+}
+
+.Enseigant{
+	background-color : rgba(200,200,200,0.7);
+	padding : 2% 0% 3% 0%;
+	padding-bottom : 5%;
+}
+
+h2{
+	margin-left : 4%;
+}
+
+.Enseigant img{
+	width : 30%;
+	display : inline-block;
+	border-radius : 50%;	
+}
+
+.Enseigant img:hover{
+  box-shadow: 0px 0px 20px 0px gold;
+}
+
+
+.Enseigant_texte {
+	display : inline-block;
+	width : 25%;
+	vertical-align: top;
+	margin : 2%;
+	border : solid 1px white;
+	border-radius  : 4%;
+	padding : 2%;
+}	
+

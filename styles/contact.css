@@ -1,0 +1,133 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+  	background-color: #051a43;
+  	background-image: url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/16038.png");
+	background-position: center;
+  	background-size: cover;
+  	color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: none;
+	margin: 0px;
+	opacity : 1;
+}
+
+.titrePage {
+	text-align: center;
+	margin-right: 30%; 
+  	margin-left: 30%;
+  	border-bottom: 1px solid black;
+  	margin-bottom: 1%;
+}
+
+.contactBloc {
+	width: 100%;
+	background-color: rgba(169,169,169,0.5); 
+	text-align: center;
+}
+
+.contactForm {
+	margin-right: -10%;
+	text-align: left;
+	width: 40%;
+	display: inline-block;
+}
+
+#nom {
+	vertical-align: top;
+	width: 20%;
+	margin-bottom: 1%;
+}
+
+#prenom {
+	vertical-align: top;
+	width: 20%;
+}
+
+#email {
+	vertical-align: top;
+	width: 40.9%;
+	margin-bottom: 1%;
+}
+
+#message {
+	vertical-align: top;
+	width: 40.7%;
+	margin-bottom: 1%;
+}
+
+#submit {
+	vertical-align: top;
+	text-align: center;
+}
+
+#submit {
+	background-color: #051a43; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+	transition-duration: 0.3s;
+	margin-bottom: 7%;
+}
+
+#submit:hover {
+  background-color: grey;
+  color: white;
+  cursor : pointer;
+}
+
+.contactBloc h2 {
+	color: #051a43;
+  	font-weight: lighter;
+}
+
+.horairesContact {
+	text-align: justify;
+	vertical-align: top;
+	width: 20%;
+	display: inline-block;
+}
+
+.map {
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding: 1%;
+}
+
+.mapLeft img {
+	width: 12px;
+	height: 12px;
+}
+
+.mapLeft {
+	padding: 1%;
+	display: inline-block;
+	width: 15%;
+	text-align: justify;
+}
+
+.map h2 {
+	color: #051a43;
+  	font-weight: lighter;	
+}
+
+.imgMap {
+	vertical-align: top;
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+}
+
+.mapRight {
+	padding-left: 2%;
+	vertical-align: top;
+	display: inline-block;
+}
